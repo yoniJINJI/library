@@ -1,0 +1,32 @@
+{
+  "name": "tabit",
+  "version": "1.0.0",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.2.2",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0",
+    "winston": "^3.13.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
